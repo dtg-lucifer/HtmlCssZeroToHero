@@ -2,6 +2,30 @@
 
 *{
     background-color: rgb(88, 140, 219);
-    color: rgb(58, 221, 17);
     font-family: 'Fira Code', monospace;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    padding-bottom: 10rem;
+    color: rgb(4, 0, 255);
+}
+
+h2{
+    color: yellow;
+}
+
+p{
+    color: greenyellow;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
