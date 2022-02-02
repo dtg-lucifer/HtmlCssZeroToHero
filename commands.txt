@@ -1,0 +1,9 @@
+touch .gitignore
+git config --global user.name Lucifer
+git config --global user.email piushbasu@gmail.com
+git init
+git add .
+git commit -m "Initial Commits"
+git status
+git remote add origin <ssh url from github-repository>
+git push origin master
