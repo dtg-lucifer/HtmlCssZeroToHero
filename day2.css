@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+*{
+    font-family: 'Fira Code', monospace;
+    background-color: rgb(110, 149, 233);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7rem;
+}
+
+.cap{
+    font-family: 'Rowdies', cursive;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+table{
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+th{
+    color:rgb(94, 255, 0);
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+td{
+    width: 25%;
+    color: rgb(43, 255, 0);
+    border: 2px solid blue;
+    border-radius: 5px;
+}
