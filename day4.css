@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,700&display=swap');
+
+*{
+    font-family: 'PT Sans', sans-serif;
+}
+
+body{
+    background-color: skyblue;
+    margin: 5 auto;
+}
+
+label{
+    color: purple;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+select{
+    height: 20px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+input.name{
+    height: 20px;
+    width: 20rem;
+    border: 1px solid blue;
+    border-radius: 15px;
+}
+
+.radio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.conatiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#name{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#btn-signup{
+    height: 35px;
+    width: 70px;
+    border: 1px solid blue;
+    border-radius: 30px;
+}
